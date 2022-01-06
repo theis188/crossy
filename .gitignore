@@ -1,2 +1,5 @@
 crossy.egg-info/*
 .pytest_cache/*
+build/*
+dist/*
+*.pyc
