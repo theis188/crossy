@@ -21,7 +21,7 @@ The name `crossy` is a reference to RNA secondary structure which sometimes form
 
 <img src="rna_cross.PNG">
 
-<a name="examples">
+<a name="examples"></a>
 ## Examples
 
 Create mRNA object and calculate stability.
@@ -45,14 +45,14 @@ new_mrna = apply_substitutions(mrna, substitutions)
 new_mrna.total_stability  # 0.964 ~ 0.466 + 0.5
 ```
 
-<a name="references">
+<a name="references"></a>
 ## References
 
 The mRNA stability calculation is primarily based on work in <i>Saccharomyces cerevisiae</i> from Coller lab from 2015: [<i>Codon Optimality Is a Major Determinant of mRNA Stability</i>](https://www.sciencedirect.com/science/article/pii/S0092867415001956)
 
 The work showed a quantitative relationship between codon prevalance and mRNA half life in living cells.
 
-<a name="roadmap">
+<a name="roadmap"></a>
 ## Roadmap
 
 + Recent reviews discuss the relationship between codon prevalence and mRNA stability, translation rate, and correct folding: [link](https://e-tarjome.com/storage/btn_uploaded/2019-07-10/1562737049_9682-etarjome-English.pdf).
